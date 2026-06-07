@@ -1,0 +1,271 @@
+#cronokael br {
+    display: none;
+}
+#cronokael {
+    background: #dfdfdf;
+    color: #141414;
+    border: 10px solid white;
+    outline: 3px solid var(--gg2);
+    overflow: hidden;
+    position: relative;
+    width: 700px;
+}
+.titlekael {
+    position: relative;
+    font-family: var(--f1);
+    font-size: 20px;
+    background: linear-gradient(to left, var(--gg3), var(--gg1));
+    color: #c1c1c1;
+    display: flex;
+    justify-content: left;
+    letter-spacing: 2px;
+    font-weight: 700;
+    align-items: center;
+    gap: 10px;
+    padding-left: 140px;
+    z-index: 1;
+}
+.titlekael .game-icon {
+    padding: 20px;
+    font-size: 80px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: var(--gg1);
+    color: var(--gg3);
+    clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+    padding-bottom: 40px;
+}
+.portadakael {
+    display: flex;
+    justify-content: space-between;
+    background: var(--gg1);
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+}
+.portadakael:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,black, transparent);
+}
+.portadakael img {
+    width: 450px;
+    height: 300px;
+}
+#cronokael input[type="radio"]{
+display:none;
+}
+.contentkael{
+display:none;
+}
+#tab1:checked~.contenedorkaeltab .contentkael1,
+#tab2:checked~.contenedorkaeltab .contentkael2,
+#tab3:checked~.contenedorkaeltab .contentkael3,
+#tab4:checked~.contenedorkaeltab .contentkael4,
+#tab5:checked~.contenedorkaeltab .contentkael5{
+display:block;
+}
+.kaeltab {
+    display: flex;
+    justify-content: space-between;
+    background: var(--gg2);
+}
+.kaeltab label {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    padding: 5px 10px;
+    font-family: var(--f1);
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 3px;
+    transition: 0.5s linear;
+}
+#tab1:checked~.kaeltab label[for="tab1"],
+#tab2:checked~.kaeltab label[for="tab2"],
+#tab3:checked~.kaeltab label[for="tab3"],
+#tab4:checked~.kaeltab label[for="tab4"],
+#tab5:checked~.kaeltab label[for="tab5"]{
+background:var(--gg1);
+color:#fff;
+}
+.contenedorkaeltab {
+    max-height: 300px;
+    overflow: auto;
+    padding: 10px;
+    background: #e7e7e7;
+    margin: 10px;
+    border: 1px solid #c5c5c5;
+    position: relative;
+}
+span.yearkael {
+    display: inline-flex;
+    padding: 10px;
+    font-size: 30px;
+    font-family: serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--gg1);
+    font-style: italic;
+    text-decoration: underline 3px solid;
+}
+span.estacion {
+    display: flex;
+    padding: 0px 10px;
+    font-family: serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    color: var(--gg2);
+}
+.tema {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #dfdfdf;
+    border: 1px solid #d1d1d1;
+}
+span.infotema {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 3px 0px;
+}
+span.tittletema a {
+    letter-spacing: 3px;
+    color: var(--gg3);
+    font-size: 12px;
+    background: var(--gg1);
+    padding: 0px 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    line-height: 1.6;
+}
+span.tittletema {
+    display: flex;
+    font-family: var(--f1);
+    font-size: 20px;
+    font-weight: bold;
+    gap: 10px;
+    color: var(--gg1);
+    align-items: center;
+}
+.contentkael .game-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 20px;
+    padding: 10px;
+    background: var(--gg1);
+    color: white;
+    font-size: 30px;
+    border: 5px solid #e7e7e7;
+    outline: 2px solid var(--gg1);
+}
+.boxphrasekael .fa-solid {
+    color: var(--gg2);
+    font-size: 24px;
+}
+.boxphrasekael {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    font-family: var(--f1);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1;
+    gap: 10px;
+    background: linear-gradient(45deg, var(--gg2), var(--gg1), black);
+    color: #dfdfdf;
+    font-style: italic;
+}
+.titlekael2 {
+    margin: 0px 10px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-family: serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
+    color: var(--gg1);
+    justify-content: center;
+}
+.titlekael2:before, .titlekael2:after {
+    content: '';
+    width: 30%;
+    height: 2px;
+    background: var(--gg3);
+}
+.contenedorelacioneskael {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    margin: 10px;
+    background: #e7e7e7;
+    outline: 1px solid #c3c3c3;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.relacionkael img {
+    margin: 10px;
+    box-shadow: 0px 0px 3px #9d9d9d;
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+}
+.relacionkael {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #dfdfdf;
+    border: 1px solid #d0d0d0;
+}
+.inforelacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+span.namerela {
+    font-family: var(--f1);
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--gg1);
+}
+span.typerela {
+    text-transform: uppercase;
+    font-family: serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    margin-top: -5px;
+    font-weight: bold;
+    color: var(--gg2);
+}
+span.descricoment {
+    padding: 10px 40px;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contenedorkaeltab{scrollbar-width: thin;scrollbar-color: var(--gg1) var(--gg2);}
