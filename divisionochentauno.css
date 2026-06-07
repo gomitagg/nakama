@@ -1,0 +1,163 @@
+#marineocho br{display:none;}
+#marineocho {
+    background: var(--gg2);
+    border: 6px solid var(--post-background-odd);
+    outline: 3px solid var(--gg2);
+    border-radius: 20px;
+overflow:hidden;
+}
+.headersquads img {
+    width: 200px;
+    border-radius: 100%;
+    border: 6px solid var(--gg1);
+    outline: 40px solid var(--gg3);
+}
+.headersquads {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    padding: 20px;
+    background: linear-gradient(45deg, var(--gg1), var(--gg3));
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    gap: 20px;
+    overflow: hidden;
+}
+.eslogan {
+    font-family: calibri;
+    font-size: 16px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.titlesquad {
+    font-family: var(--f1);
+    font-size: 50px;
+    line-height: 1;
+    text-align: center;
+    color: white;
+    width: 50%;
+}
+.titlecontenido .game-icon {
+    color: var(--gg3);
+    font-size: 50px;
+}
+.titlecontenido {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    background: var(--gg1);
+    border-radius: 20px;
+    color: white;
+    font-family: var(--f1);
+    padding-right: 20px;
+}
+.infosquadd {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: var(--mejora-protesis-card-background);
+    border-radius: 20px;
+}
+.expbox {
+    margin: 10px;
+    padding: 10px;
+    background: var(--post-background-odd);
+    border-radius: 20px;
+}
+.boxexp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.memberlist .game-icon {
+    position: absolute;
+    top: -2px;
+    left: 20px;
+    padding: 10px;
+    background: var(--gg2);
+    color: white;
+    font-size: 50px;
+    padding-bottom: 30px;
+    clip-path: polygon(100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.memberlist span {
+    font-size: 30px;
+    line-height: 1;
+    color: var(--gg1);
+    display: flex;
+    text-align: center;
+    font-family: var(--f1);
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.memberlist {
+    background: var(--mejora-protesis-card-background);
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid var(--gg2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.iconavatar {
+    width: 100px;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 4px solid var(--gg2);
+    height: 100px;
+    outline: 120px solid var(--post-background-odd);
+}
+.memberlist li {
+    font-size: 13px;
+    padding: 3px;
+    border-bottom: 1px solid var(--gg1);
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.memberlist ul {
+    width: 100%;
+}
+.memberlist a {
+    font-weight: bold;
+    font-family: 'arial black';
+    color: var(--gg2);
+    letter-spacing: 0;
+}
+.contentinfosquad {
+    margin: 10px;
+}
+.barco {
+    display: flex;
+}
+.contenidobarco img {
+    width: 96%;
+    border-radius: 20px;
+    margin: 5px;
+    border: 2px solid var(--gg2);
+}
+.contenidobarco {
+    width: 50%;
+    padding: 10px;
+    background: var(--custom-spoiler-content-color);
+    margin: 10px;
+    border-radius: 20px;
+}
+.memberlist.total {
+    grid-column: 1 / 3;
+}
