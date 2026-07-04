@@ -1,163 +1,382 @@
-#marineocho br{display:none;}
-#marineocho {
-    background: var(--gg2);
-    border: 6px solid var(--post-background-odd);
-    outline: 3px solid var(--gg2);
-    border-radius: 20px;
-overflow:hidden;
-}
-.headersquads img {
-    width: 200px;
-    border-radius: 100%;
-    border: 6px solid var(--gg1);
-    outline: 40px solid var(--gg3);
-}
-.headersquads {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 200px;
-    padding: 20px;
-    background: linear-gradient(45deg, var(--gg1), var(--gg3));
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
-    gap: 20px;
+.contentdvigg{position:relative;}
+#divigg {
+    width: 700px;
     overflow: hidden;
+    position: relative;
+    height: auto;
+    background: var(--n2);
+    background-size: contain;
+    border: 4px solid var(--n1);
+    outline: 2px solid var(--gg2);
+    margin: 20px;
+    border-radius: 20px;
 }
-.eslogan {
-    font-family: calibri;
-    font-size: 16px;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-}
-.titlesquad {
-    font-family: var(--f1);
-    font-size: 50px;
-    line-height: 1;
-    text-align: center;
-    color: white;
-    width: 50%;
-}
-.titlecontenido .game-icon {
-    color: var(--gg3);
-    font-size: 50px;
-}
-.titlecontenido {
-    padding: 10px;
+.headerdivigg {
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    background: var(--bg1);
+    background-size: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    font-size: 30px;
-    background: var(--gg1);
-    border-radius: 20px;
-    color: white;
-    font-family: var(--f1);
-    padding-right: 20px;
-}
-.infosquadd {
-    margin: 10px;
-    padding: 10px;
-    display: flex;
+    justify-content: center;
+    background-position: center;
     flex-direction: column;
-    gap: 10px;
-    background: var(--mejora-protesis-card-background);
-    border-radius: 20px;
+    line-height: 1;
 }
-.expbox {
-    margin: 10px;
-    padding: 10px;
-    background: var(--post-background-odd);
-    border-radius: 20px;
-}
-.boxexp {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    margin: 10px;
-    padding: 10px;
-}
-.memberlist .game-icon {
-    position: absolute;
-    top: -2px;
+img.logoggdiv {
+    width: 80px;
+    position: relative;
+    top: 20px;
     left: 20px;
-    padding: 10px;
+    border-radius: 100%;
+    z-index: 2;
+}
+.headerdivigg .game-icon {
+    font-size: 80px;
+    position: relative;
+    top: 0;
+    color: var(--n1);
+    left: 0;
     background: var(--gg2);
-    color: white;
-    font-size: 50px;
-    padding-bottom: 30px;
-    clip-path: polygon(100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 30px;
-}
-.memberlist span {
-    font-size: 30px;
-    line-height: 1;
-    color: var(--gg1);
-    display: flex;
-    text-align: center;
-    font-family: var(--f1);
-    height: 50px;
-    align-items: center;
-    justify-content: center;
-}
-.memberlist {
-    background: var(--mejora-protesis-card-background);
     padding: 10px;
+    margin: 10px;
+    border-radius: 100%;
+    border-top-left-radius: 0;
+    border: 4px solid var(--n2);
+    margin-top: -80px;
+}
+.headerdivigg:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, var(--gg2), var(--gg1));
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+.headerdivigg span {
+    font-size: 80px;
+    color: var(--n1);
+    font-family: times new roman;
+    text-transform: uppercase;
+    position: relative;
+    background: linear-gradient(90deg, var(--n2), var(--n1), var(--gg2), var(--gg2));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.headerdivigg span1 {
+    position: relative;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--n1);
+    border-top: 1px solid var(--gg2);
+    padding: 5px;
+}
+.titledivision strong {
+    color: var(--gg1);
+}
+.titledivision {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid var(--n1);
+    display: inline-flex;
+    font-family: var(--font1);
+    font-size: 12px;
+    gap: 5px;
     border-radius: 20px;
-    border: 3px solid var(--gg2);
+    position: relative;
+    top: -10px;
+    left: 20px;
+    background: linear-gradient(45deg, var(--n1), transparent);
+}
+.descredivisi {
+    padding: 0px 20px;
+    font-family: var(--font1);
+    font-size: 13px;
+    text-align: justify;
+    line-height: 1.6;
+}
+.contentabdivgg {
+    background: linear-gradient(45deg, var(--gg2), transparent);
+    height: 100px;
+    margin: 15px;
+    border-radius: 15px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
     position: relative;
     overflow: hidden;
+    justify-content: space-between;
+    padding: 0px 10px;
 }
-.iconavatar {
-    width: 100px;
-    border-radius: 100%;
+.content-describ-tabdivgg {
+    margin: 0px 15px;
+    height: 500px;
+    background: linear-gradient(45deg, var(--n1), transparent);
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #ababab;
+    position: relative;
     overflow: hidden;
-    border: 4px solid var(--gg2);
-    height: 100px;
-    outline: 120px solid var(--post-background-odd);
 }
-.memberlist li {
-    font-size: 13px;
-    padding: 3px;
-    border-bottom: 1px solid var(--gg1);
-    font-family: calibri;
+.contentabdivgg label {
+    height: 70px;
+    width: 100px;
+    font-size: 12px;
+    font-family: var(--font1);
     font-weight: bold;
-    letter-spacing: 1px;
-}
-.memberlist ul {
-    width: 100%;
-}
-.memberlist a {
-    font-weight: bold;
-    font-family: 'arial black';
-    color: var(--gg2);
-    letter-spacing: 0;
-}
-.contentinfosquad {
-    margin: 10px;
-}
-.barco {
-    display: flex;
-}
-.contenidobarco img {
-    width: 96%;
-    border-radius: 20px;
-    margin: 5px;
-    border: 2px solid var(--gg2);
-}
-.contenidobarco {
-    width: 50%;
+    color: var(--n2);
+    text-transform: uppercase;
+    background: linear-gradient(45deg, var(--gg2), transparent);
     padding: 10px;
-    background: var(--custom-spoiler-content-color);
-    margin: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: underline 2px var(--gg2);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.memberlist.total {
-    grid-column: 1 / 3;
+.contentabdivgg label .game-icon {
+    display: inline-flex;
+    font-size: 30px;
+    background: var(--gg2);
+    padding: 5px;
+    border-radius: 10px;
+    margin: 3px;
+}
+.tabs-wrap input { display:none; }
+.content1,.content2,.content3,.content4 ,.content5{ display:none; }
+#tab1:checked ~ .content1 { display:block; }
+#tab2:checked ~ .content2 { display:block; }
+#tab3:checked ~ .content3 { display:block; }
+#tab4:checked ~ .content4 { display:block; }
+#tab5:checked ~ .content5 { display:block; }
+#tab1:checked ~ .contentabdivgg label[for="tab1"],
+#tab2:checked ~ .contentabdivgg label[for="tab2"],
+#tab3:checked ~ .contentabdivgg label[for="tab3"],
+#tab4:checked ~ .contentabdivgg label[for="tab4"],
+#tab5:checked ~ .contentabdivgg label[for="tab5"] {
+    background: linear-gradient(45deg, var(--gg2), var(--n3), var(--gg1));
+    padding: 10px;
+}
+.boxmembergg {
+    height: 96%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    padding: 10px;
+}
+.membergg {
+    border-radius: 20px;
+    background: var(--n2);
+    box-shadow: 0px 0px 10px #bbb;
+    border: 2px solid var(--n1);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+height: 150px;
+}
+.avatarmember {
+    overflow: hidden;
+    width: 110px;
+    height: 110px;
+    border-radius: 20px;
+    border: 2px solid var(--n1);
+    box-shadow: 0px 0px 4px #bbb;
+transition:0.5s linear;
+}
+.avatarmember img {
+    width: 100%;
+    height: auto;
+    filter: grayscale(1);
+    opacity: 0.6;
+transition:0.5s linear;
+}
+.membergg:hover img{    
+filter: grayscale(0);
+    opacity: 1;}
+.descripmember {
+    width: 120px;
+    position: relative;
+}
+span.namemember {
+    display: block;
+    font-family: var(--font2);
+    position: absolute;
+    top: -40px;
+    font-size: 32px;
+    right: -20px;
+    font-weight: bold;
+    background: linear-gradient(90deg, var(--gg1), var(--gg1), var(--gg2), var(--gg2));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: 270px;
+    padding: 10px;
+    text-align: right;
+}
+span.descritotal u {
+    font-size: 11px;
+    text-decoration: none;
+    font-family: var(--font1);
+}
+span.descritotal {
+    top: 10px;
+    display: grid;
+    width: 150px;
+    position: relative;
+    background: linear-gradient(45deg, var(--n1), transparent);
+    padding: 5px;
+    border-radius: 10px;
+    right: 25px;
+}
+a.explink {
+    width: 120px;
+    display: flex;
+    position: absolute;
+    bottom: -30px;
+    text-decoration: none;
+    font-family: var(--font1);
+    font-size: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    background: linear-gradient(to right, var(--gg1), var(--gg2));
+    padding: 10px 20px;
+    left: -180px;
+    border-top-right-radius: 10px;
+    color: var(--n1);
+}
+#olasgg-wrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 1;
+}
+.gg-ola {
+    position: relative;
+    overflow: hidden;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+}
+.olaone {
+    position: absolute;
+    left: 0;
+    width: 850%;
+    height: 100px;
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    animation: ggOlasOne 20s linear infinite;
+    opacity: 0.8;
+    mask-image: url(https://assets.codepen.io/605876/wave--infinite.svg);
+    -webkit-mask-image: url(https://assets.codepen.io/605876/wave--infinite.svg);
+    mask-repeat: repeat-x;
+    -webkit-mask-repeat: repeat-x;
+    mask-size: auto 100%;
+    -webkit-mask-size: auto 100%;
+    bottom: 0;
+}
+.olaone.gg2 {
+  background-color: var(--n1);
+  animation-duration: 15s;
+}
+
+.olaone.gg4 {
+  background-color: var(--n2);
+  animation-duration: 25s;
+}
+
+@keyframes ggOlasOne {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.boxnavegaci img {
+    border-radius: 20px;
+    border: 3px solid var(--n1);
+    box-shadow: 0px 0px 10px var(--n2);
+}
+.boxnavegaci {
+    text-align: center;
+    padding: 10px;
+    height: 96%;
+}
+.boxnavegaci .titledivision {
+    margin: 20px;
+    left: -205px;
+    background: linear-gradient(45deg, var(--n2), transparent);
+    margin-bottom: 0;
+}
+.titlerecurso .game-icon {
+    font-size: 40px;
+    padding: 10px;
+    background: var(--n1);
+    border-radius: 10px;
+}
+.titlerecurso span {
+    font-size: 20px;
+    font-family: var(--font1);
+    font-weight: bold;
+    color: var(--gg1);
+}
+.titlerecurso {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, var(--gg1), transparent);
+    padding: 10px;
+    border-radius: 15px;
+}
+.fichemoney strong {
+    color: var(--gg2);
+    font-size: 14px;
+}
+.fichemoney span {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    font-family: var(--font1);
+    font-size: 12px;
+    border-bottom: 1px solid #d0d0d0;
+}
+.fichemoney {
+    height: 75%;
+    margin: 10px;
+    padding: 10px;
+    overflow: auto;
+}
+.boxfooter span {
+    font-size: 12px;
+    font-family: var(--font1);
+    font-weight: bold;
+    color: var(--n1);
+    letter-spacing: 5px;
+}
+.boxfooter img {
+    width: 150px;
+}
+.boxfooter {
+    transform: rotate(-180deg);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 10px;
+    z-index: 2;
 }
