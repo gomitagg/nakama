@@ -1,0 +1,446 @@
+  /*Tabla*/
+#tablabebitufiufiu {
+    width: 680px;
+    border: 5px solid var(--n2);
+    margin: 10px;
+    min-height: 300px;
+    background: var(--bg2);
+    outline: 2px solid var(--gg1);
+    position: relative;
+    overflow: hidden;
+}
+.headerragnarok:before {
+    content: '';
+    background: linear-gradient(to top, var(--gg1) 2%, transparent 50%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.8;
+}
+#tablabebitufiufiu br {
+    display: none;
+}
+.headerragnarok {
+    position: relative;
+    height: 450px;
+    background: var(--d1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 1;
+    overflow: hidden;
+}
+.headerragnarok span {
+    font-size: 85px;
+    text-transform: uppercase;
+    font-family: var(--font3);
+    display: block;
+    padding: 10px;
+    background: linear-gradient(90deg, var(--gg3), var(--gg3), #fff, var(--gg2), var(--gg3));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    opacity: 0.8;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: -10px;
+}
+.headerragnarok span1 {
+    color: var(--gg2);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 500;
+    font-family: var(--font3);
+    font-size: 15px;
+    opacity: 0.7;
+}
+.decoheader .game-icon {
+    font-size: 20px;
+}
+.decoheader {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    color: var(--gg3);
+    justify-content: space-between;
+}
+.decoheader:before {
+    content: '';
+    width: 200px;
+    height: 2px;
+    background: linear-gradient(to left, var(--gg2), transparent);
+    display: block;
+}
+.decoheader:after{
+    content: '';
+    width: 200px;
+    height: 2px;
+    background: linear-gradient(to right, var(--gg2), transparent);
+    display: block;
+}
+.titlecontentdescrip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: linear-gradient(to right, var(--n1), var(--n2), var(--n1));
+    color: var(--n3);
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: var(--font2);
+    padding: 10px;
+    height: 10px;
+    position: relative;
+    z-index: 1;
+    font-size: 12px;
+}
+.titlecontentdescrip .fa-solid {
+    font-size: 8px;
+    color: var(--gg1);
+}
+.titlecontentdescrip .game-icon {
+    font-size: 80px;
+    color: var(--gg3);
+    background: var(--n2);
+    border-radius: 100%;
+    padding: 10px;
+}
+.boxcontentdescrip {
+    margin: 15px;
+    height: auto;
+    background: var(--n1);
+    border: 1px solid var(--gg3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+    outline: 5px solid var(--n1);
+    box-shadow: -6px -6px 0px var(--gg3), 6px 6px 0px var(--gg3);
+    padding-top: 50px;
+}
+.contentmember,.contentnave,.bitaragnarok,.inventarioragnarok,.cofreagnarok{
+    margin: 15px;
+    background: var(--n1);
+    min-height: 50px;
+    border: 1px solid var(--gg3);
+    outline: 5px solid var(--n1);
+    box-shadow: -6px -6px 0px var(--gg3), 6px 6px 0px var(--gg3);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+.member {
+    height: 250px;
+    border: 1px solid var(--gg3);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    background: var(--bg1);
+    background-size: contain;
+}
+.boxinfomember {
+    width: 200px;
+    background: linear-gradient(to left, black, transparent);
+    display: flex;
+    flex-direction: column;
+}
+.mentasdescrip .game-icon {
+    color: var(--gg1);
+    font-size: 20px;
+    padding: 5px;
+}
+.mentasdescrip span {
+    display: flex;
+    padding: 2px;
+}
+.historydescrip, .mentasdescrip {
+    color: var(--n3);
+    font-family: calibri;
+    height: 70%;
+    padding: 10px;
+    width: 50%;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 1.4;
+    opacity: 0.9;
+}
+span.titledescrip {
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    left: 0;
+    font-family: var(--font3);
+    color: var(--n1);
+    background: linear-gradient(to right, var(--gg3), transparent);
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--n1);
+    width: 300px;
+}
+.titulotablaragna .fa-solid {
+    color: var(--gg1);
+    font-size: 8px;
+}
+.titulotablaragna {
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: var(--gg2);
+    background: linear-gradient(to right, transparent, var(--n1), var(--n1), transparent);
+    letter-spacing: 4px;
+    align-items: center;
+    gap: 10px;
+}
+span.titlemember {
+    font-family: var(--font2);
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    background: linear-gradient(90deg, var(--gg3), var(--gg3), #fff, var(--gg2), var(--gg3));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 125px;
+}
+.boxinfomember {
+    width: 250px;
+    background: linear-gradient(to left, var(--n1) 50%, transparent);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 4;
+    height: 100%;
+    right: 0;
+    align-items: end;
+}
+span.fraseragn .fa-solid {
+    color: var(--gg2);
+}
+span.fraseragn {
+    display: flex;
+    gap: 5px;
+    font-size: 12px;
+    margin: 0px 20px;
+    color: var(--n3);
+    align-items: center;
+    font-family: calibri;
+}
+span.descripuser {
+    display: flex;
+    width: 62%;
+    font-family: calibri;
+    font-size: 12px;
+    color: var(--n3);
+    margin: 2px 0px;
+}
+span.descripuser .fa-solid{color:var(--gg1);}
+span.titerecom {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 60%;
+    font-family: var(--font3);
+    color: var(--n3);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 10px;
+    padding: 10px;
+}
+span.titerecom:before {
+    content: '';
+    width: 30%;
+    height: 2px;
+    background: var(--gg3);
+}
+span.recompensa {
+    display: flex;
+    font-size: 20px;
+    color: var(--gg1);
+    width: 50%;
+    margin: 0px 10px;
+    background: black;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    position: relative;
+    top: -5px;
+}
+.member .game-icon {
+    position: absolute;
+    top: 0;
+    left: 110px;
+    background: var(--gg3);
+    font-size: 30px;
+    color: var(--n3);
+    z-index: 5;
+    clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+    padding: 10px;
+    padding-bottom: 25px;
+}
+.infocontent p {
+    display: block;
+    line-height: 1.3;
+    margin: 0px;
+    padding: 0px;
+}
+.infocontent span {
+    font-size: 30px;
+    display: block;
+    font-family: var(--font2);
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    padding: 5px 0px;
+    color: var(--gg2);
+}
+.infocontent {
+    color: var(--n3);
+    font-size: 12px;
+    font-family: calibri;
+    text-align: justify;
+    padding: 0px 20px;
+}
+.tabsragnarok input{display:none}
+.menuragnarok label {
+    color: var(--n3);
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.5s linear;
+    opacity: 0.8;
+}
+.menuragnarok {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 30px 10px;
+    background: var(--n1);
+    font-family: var(--font3);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: 1px solid var(--gg3);
+    outline: 5px solid var(--n1);
+    box-shadow: -6px -6px 0px var(--gg3), 6px 6px 0px var(--gg3);
+}
+.tabcontent-ragna{
+display:none;
+animation:fadeRagna .4s;
+}
+
+#tab-ragna-1:checked~.contenedorragnarok .pilares,
+#tab-ragna-2:checked~.contenedorragnarok .vedrfolnir,
+#tab-ragna-3:checked~.contenedorragnarok .bitacora,
+#tab-ragna-4:checked~.contenedorragnarok .inventario,
+#tab-ragna-5:checked~.contenedorragnarok .cofre{
+display:block;
+}
+
+#tab-ragna-1:checked~.menuragnarok label[for="tab-ragna-1"],
+#tab-ragna-2:checked~.menuragnarok label[for="tab-ragna-2"],
+#tab-ragna-3:checked~.menuragnarok label[for="tab-ragna-3"],
+#tab-ragna-4:checked~.menuragnarok label[for="tab-ragna-4"],
+#tab-ragna-5:checked~.menuragnarok label[for="tab-ragna-5"]{
+opacity: 1;
+background: var(--gg1);
+ color: var(--n3);
+}
+
+@keyframes fadeRagna{
+from{
+opacity:0;
+transform:translateY(10px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+.titleinfobarco {
+    grid-column: 1 / 3;
+    background: linear-gradient(to left, transparent, var(--gg1), transparent);
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    font-family: var(--font3);
+    font-size: 30px;
+    color: var(--n3);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    margin: 20px 0px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+.notebarco span {
+    display: block;
+    font-family: var(--font3);
+    color: var(--n3);
+    font-size: 14px;
+    margin: 10px;
+    padding: 2px;
+    border-bottom: 1px solid var(--n2);
+}
+.notebita img {
+    width: 309px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+.notebita {
+    background: black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.subtitlemov {
+    font-family: var(--font3);
+    color: var(--gg2);
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 10px;
+    background: var(--n2);
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.contentnave img {
+    border-radius: 20px;
+    margin: 10px;
+    margin-right: 0;
+    border: 5px solid var(--n1);
+    outline: 1px solid var(--gg3);
+    width: 280px;
+}
+.notebarco {
+    background: #000000;
+    border-radius: 20px;
+    display: grid;
+    overflow: hidden;
+    position: relative;
+}
+.notebarco .game-icon {
+    position: absolute;
+    padding: 10px;
+    background: var(--gg1);
+    color: var(--gg2);
+    font-size: 40px;
+    padding-bottom: 30px;
+    clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+    left: 30px;
+}
