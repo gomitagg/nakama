@@ -1,0 +1,9 @@
+.columtabcronotaito input{display:none}
+.contenido-crono{display:none}
+.columtabcronotaito label:nth-child(1) input:checked ~ span,
+.columtabcronotaito label:nth-child(2) input:checked ~ span,
+.columtabcronotaito label:nth-child(3) input:checked ~ span,
+.columtabcronotaito label:nth-child(4) input:checked ~ span{
+    background:var(--taito1);
+    color:#fff;
+}
