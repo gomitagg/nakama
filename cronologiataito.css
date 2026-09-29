@@ -109,7 +109,7 @@ background: var(--taito5);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: end;
+    align-items: center;
     background: linear-gradient(to right, var(--taito1), transparent 60%);
 }
 .frasecrono {
